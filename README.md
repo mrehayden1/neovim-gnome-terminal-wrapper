@@ -14,14 +14,14 @@ it can be associated to filetypes, etc.)
 
 ## Setup
 
-On Arch, install `neovim-gnome-terminal-wrapper` from the AUR.
+On Ubuntu 20.04
 
-Manually:
+Copy or link nvim-wrapper somewhere into the desktop environment's path and install the .desktop file.
 
 ~~~
-cp nvim-wrapper /usr/bin/nvim-wrapper
-cp neovim.desktop /usr/share/applications/neovim.desktop
-cp neovim.svg /usr/share/icons/neovim.svg
+cp nvim-wrapper ~/bin/nvim-wrapper
+cp neovim.desktop ~/.local/share/applications/neovim.desktop
+cp neovim.png ~/.local/share/icons/neovim.png
 ~~~
 
 ### Caveats when using running from virtual environments
